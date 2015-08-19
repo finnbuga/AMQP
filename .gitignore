@@ -1,0 +1,2 @@
+# exclude ./vendor directory as we're using Composer
+/vendor/*
