@@ -1,5 +1,6 @@
 <?php
 /*
+ * Helper script for testing
  * Receives from an AMQP queue and prints to the screen.
  */
 
