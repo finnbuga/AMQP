@@ -1,4 +1,9 @@
 <?php
+/**
+ * Loan
+ *
+ * Stores loan data (sum, days) and calculates interest.
+ */
 class Loan {
 
   public function __construct($sum, $days) {
@@ -7,11 +12,11 @@ class Loan {
   }
   
   /**
-  * Calculates the interest.
-  *
-  * @todo Optimise for a big numbers of days.
-  * @todo Avoid calculating the daily interest rates each time. Store them in a table for the first 100 days.
-  */
+   * Calculates the interest.
+   *
+   * @todo Optimise for a big numbers of days.
+   * @todo Avoid calculating the daily interest rates each time. Store them in a table for the first 100 days.
+   */
   public function calculate_interest() {
     $total_interest = 0;
     
