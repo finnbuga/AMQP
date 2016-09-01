@@ -1,4 +1,4 @@
-# Queue-test-task #
+# AMQP #
 
 Small AMQP service that reads and writes messages.
 
